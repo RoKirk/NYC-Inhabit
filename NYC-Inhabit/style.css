@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(175, 219, 240);
+    padding: 15px;
+}
+
+a {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: tomato;
+}
+
+h1 {
+    color: rgb(59, 91, 110);
+    font-family: 'Cute Font', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+#input-box {
+    display: flex;
+    font-size: 25px;
+    align-items: center; 
+    justify-content: center;
+}
+
+#information-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+#data-row {
+    display: inline-block;
+    font-family: 'Cute Font', cursive;
+    font-size: 40px;
+    color: black;
+    border:rgb(59, 91, 110);
+}
+
+#title-row {
+    display: inline-block;
+    font-family: 'Cute Font', cursive;
+    font-size: 40px;
+    color: black;
+    border: rgb(59, 91, 110);
+}
+
+#search-bar {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    font-family: 'Cute Font', cursive;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(59, 91, 110);
+    color: white;
+    margin: 15px;
+}
+
+#info {
+    border: rgb(59, 91, 110);
+}
+
+caption {
+    font-family: 'Cute Font', cursive;
+    font-size: 45px;
+    color: rgb(59, 91, 110);
+}
+
+
+
+/* Everything above here is for screens with 
+701 or greater pixels 
+!!!! PC/Laptop !!!!!*/
+
+
+
+/* if the width of the screen is less than 700PX 
+then below CSS will take effect and 
+overwrite existing values  
+!!!! Tablet !!!!!*/
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: yellow;
+  }
+
+  #search-bar {
+      background-color: blue;
+  }
+}
+
+
+/* if the width of the screen is less than 400PX 
+then below CSS will take effect and 
+overwrite existing values  
+!!!! Mobile !!!!!*/
+@media only screen and (max-width: 501px) {
+  body {
+    background-color: green;
+  }
+
+  #search-bar {
+      background-color: red;
+  }
+}

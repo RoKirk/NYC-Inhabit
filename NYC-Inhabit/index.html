@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+    <meta property="og:NYC Inhabit" content="Population Data">
+    <meta property="og:description" content="Population Data">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1541945343319-582876927c33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60">
+    <meta property="og:url" content=>
+    <meta name="twitter:card" content="Population">
+
+
+    <!--  Non-Essential, But Recommended -->
+
+    <meta property="og:site_name" content="NYC I">
+    <meta name="twitter:image:alt" content="Ah man">
+
+
+    <!--  Non-Essential, But Required for Analytics -->
+
+    <meta property="fb:app_id" content="your_app_id" />
+    <meta name="twitter:site" content="@website-username">
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font&display=swap" rel="stylesheet">
+    <title>NYC Inhabit</title>
+</head>
+
+<body>
+    <nav>
+        <a href="https://maps.google.com/" target="_blank">Open Google Maps</a>
+    </nav>
+
+    <header>
+        <h1>NYC Population</h1>
+    </header>
+
+    <form id="input-box">
+        <input id="search-bar" type="text" placeholder="Zip Code">
+        <button>Look Up</button>
+    </form>
+
+
+    <div id="information-container">
+        <table id="info" border="2">
+            <caption>Gender Population</caption>
+            <td>
+                <div id="title-row">Female Percent<br>Male Percent<br>Total</div>
+            </td>
+            <td>
+                <div id="data-row">0<br>0<br>0</div>
+            </td>
+        </table>
+    </div>
+
+    <Footer>Brought to you by Ro.</Footer>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
